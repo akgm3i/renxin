@@ -1,6 +1,7 @@
 # RENXIN
 
-
+- renxin-app
+- renxin-view
 
 
 ## Brand
