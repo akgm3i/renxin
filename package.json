@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "@mizchi/lsmcp": "^0.9.4",
-    "@typescript/native-preview": "^7.0.0-dev.20250809.1"
-  }
-}
