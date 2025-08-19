@@ -1,4 +1,5 @@
 import { render } from 'vitest-browser-react';
+import { userEvent } from '@vitest/browser/context';
 import { expect, test, vi } from 'vitest';
 import React from 'react';
 
@@ -13,6 +14,6 @@ test('should render children correctly', async () => {
 test('should call onClick handler when clicked', async () => {
   const handleClick = vi.fn();
   const screen = await render(<Button onClick={handleClick}>Click Me</Button>);
-  await screen.getByRole('button').click();
+  await userEvent.click(screen.getByRole('button'));
   expect(handleClick).toHaveBeenCalledTimes(1);
 });
