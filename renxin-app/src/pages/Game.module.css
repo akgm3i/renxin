@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  background-color: #1a1a1a;
+  font-size: 0.9rem;
+}
+
+.scoreArea {
+  padding: 1rem;
+  text-align: center;
+  background-color: #1f1f1f;
+}
+
+.currentScore {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.lastThrows {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.mainContent {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dartboardPlaceholder {
+  width: 90vw;
+  height: 90vw;
+  max-width: 400px;
+  max-height: 400px;
+  border: 2px dashed #444;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #1a1a1a;
+}
