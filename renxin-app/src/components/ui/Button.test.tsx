@@ -1,7 +1,6 @@
 import { render } from 'vitest-browser-react';
 import { userEvent } from '@vitest/browser/context';
 import { expect, test, vi } from 'vitest';
-import React from 'react';
 
 import Button from './Button.tsx';
 
